@@ -21,7 +21,7 @@ export default class ExamplePlugin extends Plugin {
 
 				filesF.map((file) => {
 					const block = baseDiv.createEl("blockquote");
-					block.createEl("h3", { text: file.name });
+					block.createEl("h4", { text: file.name });
 					block.createEl("span", {
 						attr: { src: file.path },
 						cls: "internal-embed",
