@@ -1,4 +1,32 @@
-/* Sets all the text color to red! */
-body {
-    color: red;
+.block-language-zblockNotes .markdown-embed-title {
+	display: none;
+}
+
+.block-language-zblockNotes .markdown-embed-link {
+	top: -30px;
+	right: -10px;
+}
+
+.block-language-zblockNotes .markdown-embed-content {
+	max-height: 70px;
+	overflow: hidden;
+}
+
+.block-language-zblockNotes .markdown-embed {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.block-language-zblockNotes blockquote {
+	padding: 8px 20px;
+	margin: 15px 0;
+}
+
+.block-language-zblockNotes h3 {
+	margin: 0;
+}
+
+.block-language-zblockNotes .markdown-embed .markdown-preview-view {
+	padding: 14px 10px 0px 10px;
 }
