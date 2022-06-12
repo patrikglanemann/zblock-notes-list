@@ -1,6 +1,6 @@
 ## zblock-notes-list
 
-Plugin for Obsidian. List notes with a preview of their content like a note taking mobile app.
+Plugin for [Obsidian](https://obsidian.md/). List notes with a preview of their content like a note taking mobile app.
 
 ![example Screenshot](assets/exampleScreenshot.jpg)
 
