@@ -4,7 +4,7 @@ Plugin for [Obsidian](https://obsidian.md/). List notes with a preview of their 
 
 ![example Screenshot](assets/exampleScreenshot.jpg)
 
-## Hot to use
+## How to use
 
 Insert a "zblockNotes" codeblock in your note.  
  Like so:
