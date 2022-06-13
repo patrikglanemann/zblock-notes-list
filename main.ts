@@ -4,13 +4,22 @@ export default class ExamplePlugin extends Plugin {
 		this.registerMarkdownCodeBlockProcessor(
 			"zblockNotes",
 			(content, el, ctx) => {
-				const files = this.app.vault.getFiles().map((file) => ({
+				const files = this.app.vault.getMarkdownFiles().map((file) => ({
 					name: file.basename,
 					lastChanged: file.stat.mtime,
 					path: file.path,
 				}));
 
-				const activeFile = this.app.workspace.getActiveFile().path;
+				let activeFile: string;
+
+				try {
+					activeFile = this.app.workspace.getActiveFile().path;
+				} catch {
+					console.warn(
+						"could not read path of active file. Active file not loaded yet."
+					);
+				}
+
 				const filesF = files.filter((file) => file.path != activeFile);
 
 				filesF.sort((a, b) => {
