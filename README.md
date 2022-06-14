@@ -19,4 +19,4 @@ Depending on the content of the note, the preview can look a bit quirky (see exa
 
 ## Manually installing the plugin
 
--   Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/zblock-notes-list/`.
+-   Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/zblock-notes-list/`. Found under [releases](https://github.com/patrikglanemann/zblock-notes-list/releases).
