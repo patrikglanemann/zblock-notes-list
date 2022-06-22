@@ -16,6 +16,8 @@ Insert a "zblockNotes" codeblock in your note.
     ```
 ````
 
+To open a note click on the tilte.
+
 You can also set a limit for the number of notes to be displayed. The default is 10!  
 Just insert a number inside the codeblock. If you want all your notes to be displayed just add a high number.
 Example:
