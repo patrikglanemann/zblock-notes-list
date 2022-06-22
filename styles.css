@@ -3,12 +3,11 @@
 }
 
 .block-language-zblockNotes .markdown-embed-link {
-	top: -30px;
-	right: -10px;
+	display: none;
 }
 
 .block-language-zblockNotes .markdown-embed-content {
-	max-height: 70px;
+	max-height: 75px;
 	overflow: hidden;
 }
 
@@ -18,13 +17,17 @@
 	margin: 0;
 }
 
-.block-language-zblockNotes blockquote {
+.block-language-zblockNotes .zblockNotes {
 	padding: 8px 20px;
 	margin: 15px 0;
 }
 
-.block-language-zblockNotes h4 {
+.block-language-zblockNotes .zblockNotes-title {
 	margin: 0;
+}
+
+.block-language-zblockNotes .zblockNotes-link {
+	text-decoration: none;
 }
 
 .block-language-zblockNotes .markdown-embed .markdown-preview-view {
